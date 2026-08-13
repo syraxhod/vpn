@@ -635,7 +635,7 @@ export default {
 
                     if (isRealBrowser && !isCustomUaAllowed) {
                         if (isValidUser) {
-                            const subscriptionUrl = env.SUBSCRIPTION_URL || 'https://github.com/syraxhod/vpn/blob/main/subscription.html';
+                            const subscriptionUrl = env.SUBSCRIPTION_URL || 'https://raw.githubusercontent.com/syraxhod/vpn/refs/heads/main/subscription.html';
                             try {
                                 const resp = await fetch(subscriptionUrl);
                                 let html = await resp.text();

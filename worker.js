@@ -7918,17 +7918,7 @@ dns:
   direct-nameserver:
     - "8.8.8.8#DIRECT"
   direct-nameserver-follow-policy: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
-    - "*.lan"
-    - "localhost.ptlogin2.qq.com"
-    - "+.market.xiaomi.com"
-    - "time.*.com"
-    - "time.*.gov"
-    - "ntp.*.com"
-    - "*.ntp.org.cn"
-    - "+.pool.ntp.org"
+  enhanced-mode: redir-host
 
 tun:
   enable: true
@@ -8471,18 +8461,7 @@ async function buildClashJsonProfile(
             "nameserver-policy": {
                 "rule-set:ir": "8.8.8.8#DIRECT",
             },
-            "enhanced-mode": "fake-ip",
-            "fake-ip-range": "198.18.0.1/16",
-            "fake-ip-filter": [
-                "*.lan",
-                "localhost.ptlogin2.qq.com",
-                "+.market.xiaomi.com",
-                "time.*.com",
-                "time.*.gov",
-                "ntp.*.com",
-                "*.ntp.org.cn",
-                "+.pool.ntp.org",
-            ],
+            "enhanced-mode": "redir-host",
         },
         tun: {
             enable: true,

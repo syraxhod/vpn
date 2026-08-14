@@ -1,7 +1,7 @@
 # Wrangler Configuration for Nahan (نهان) IoT Telemetry Gateway Node
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/
 
-name = 'vpn'
+name = 'withered-breeze-4117'
 main = "worker.js"
 compatibility_date = "2024-03-01"
 
@@ -15,7 +15,7 @@ port = 8787
 [[d1_databases]]
 binding = "IOT_DB"
 database_name = "mahan"
-database_id = "f167800f-821a-4b22-ad63-133545c580b4"
+database_id = "6835a8af-5d25-4bb6-9b3e-c0ffdb82a90c"
 
 # Environment Variables & Secrets (Optional)
 # If you prefer to bind your Relay IP as an environment variable instead of using the panel settings:

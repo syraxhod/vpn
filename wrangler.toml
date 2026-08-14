@@ -15,7 +15,7 @@ port = 8787
 [[d1_databases]]
 binding = "IOT_DB"
 database_name = "mahan"
-database_id = "d32008b7-e13a-47bf-a2f9-64ab2c015b7c"
+database_id = "6faf99b2-7385-4197-ac65-13b815bdd065"
 
 # Environment Variables & Secrets (Optional)
 # If you prefer to bind your Relay IP as an environment variable instead of using the panel settings:
